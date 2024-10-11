@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    margin:0;
+}
+main{
+    width: 75%;
+    margin:20px auto;
+}
+body{
+    font-family: Arial; /*Fuente del cuerpo*/
+}
+#cabecera{ /*Cabecera de la página*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    margin-bottom: 15px;
+}
+hr{ /*Linea separadora de secciones*/
+    border: 1px solid gray;
+}
+#menusup ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+#menusup ul a{
+    padding:10px;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.menutop{
+    text-transform: uppercase;
+    color: crimson;
+}
+.ofertastop{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.ubicaciontop,.sesiontop{
+    color: black;
+}
+.registrotop{
+    color: white;
+}
+.ofertas,.ubicacion,.sesion,.registro{
+    margin: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.sesion{
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+.registro{
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: orangered;
+}
+#titulo img{ /*Tamaño del logo*/
+    width: 40%;
+    padding: 4px;
+    margin: 8px;
+}
+#menu-superior{
+    padding: 20px;
+    background-color: #f0ecec;
+}
+#menu-superior ul{
+    list-style-type: none;
+}
+#menu-superior ul a{
+    padding:10px;
+    color:black;
+    text-decoration:underline 2px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+#contenido{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+}
+#navegador,#seccion{
+    margin:10px;
+    padding:10px;
+}
+#navegador{ /*Barra izquierda*/
+    width: 20%; 
+    border:2px solid crimson;
+}
+#menu li{
+    list-style: none;
+    font-size: large;
+    padding:10px;
+}
+#menu li a{
+    text-decoration: none;
+}
+.especiales,.combos,.ofertas_menu,.parami,.pizzas,.antojitos,.bebidas{
+    color: black;
+    font-weight: bolder;
+    font-size:20px;
+    text-transform:uppercase;
+}
+.salados,.dulces,.salsas,.gaseosas,.agua{
+    color: gray;
+}
+#seccion{
+    width:60%;  
+    border:1px solid;
+    margin-bottom: 10px;
+    border:2px solid crimson;  
+}
+h1{
+    text-align:left;
+}
+.articulo{    
+   margin: 20px;
+   padding:10px;
+   border-top:2px solid gray;
+   display: flex;
+}
+article{
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+    float:left;
+}
+.articulo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.articulo p{
+    color: #6e4a4a;
+}
+#contenido1,#contenido2,#contenido3,#contenido4,#contenido5,#contenido6{
+    display: flex;
+}
+#pizza1 img,#pizza2 img,#pizza3 img,#pizza4 img,#pizza5 img,#pizza6 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+#nombre1,#nombre2,#nombre3,#nombre4,#nombre5,#nombre6{
+    align-content: center;
+    padding-left:15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu-secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:space-around;
+    padding: 20px;
+}
+#menu-secundario ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+#menu-secundario ul a{
+    padding:10px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10pt;
+    color: gray;
+}
+#pie{ /*Pie de la página*/
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: gray;
+    height: 100px;
+    margin-top: 10px;
+}

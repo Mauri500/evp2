@@ -7,7 +7,7 @@ main{
     margin:20px auto;
 }
 body{
-    font-family: Arial; /*Fuente del cuerpo*/
+    font-family: "Poppins"; /*Fuente del cuerpo*/
 }
 #cabecera{ /*Cabecera de la página*/
     display: flex;

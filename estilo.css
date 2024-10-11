@@ -7,7 +7,7 @@ main{
     margin:20px auto;
 }
 body{
-    font-family: Arial; /*Fuente del cuerpo*/
+    font-family: "Poppins"; /*Fuente del cuerpo*/
 }
 #cabecera{ /*Cabecera de la página*/
     display: flex;
@@ -92,7 +92,7 @@ aside{
     text-align: center;
 }
 #izquierda,#textoizquierdo{
-    width:89%;
+    width:91%;
 }
 #textoizquierdo{
     background-color: aquamarine;
@@ -102,8 +102,8 @@ aside{
 }
 #textoderecho{
     background-color: aquamarine;
-    width: 90%;
-    padding: 45px;
+    width: 100%;
+    padding: 25px;
     margin-bottom: 15px;
 }
 #contenido ul{
